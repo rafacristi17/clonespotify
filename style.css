@@ -1,0 +1,57 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+  }
+body {
+	background: url(./imagens/capa.png),
+				url(../imagens/ruido.png),
+				linear-gradient(50deg,#ff4169,#7c26f8);
+	background-attachment: fixed;
+	font-family: Helvetica,Arial,sans-serif;
+}
+.navbar{
+    justify-content: end;
+    display:flex;
+    flex-direction: row;
+    background:  rgba(0, 0, 0, 0.6);
+    height: 150px;
+    top:-35px;
+}
+.nav-link{
+    color: aliceblue;
+    padding-bottom:15%;
+    
+}
+.logo{
+    justify-content: left;
+    margin-right: 550px
+}
+.divisor {
+    width: 1px;
+    background: white;
+    margin: 12px 15px;
+}
+
+.carousel-inner{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+p, h5{
+    font-family: Helvetica, Arial, sans-serif;
+    color:white;
+    font-size: 50px;
+   position:static;
+  }
+
+.btn{
+    border-radius: 0 0 50% 50%;
+    background-color: #7c26f8;
+    font-family: Helvetica, Arial, sans-serif;
+    color:white
+
+  }
